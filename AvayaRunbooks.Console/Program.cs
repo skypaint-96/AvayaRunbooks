@@ -6,7 +6,7 @@
     {
         static void Main(string[] args)
         {
-            FileSystemWatcher avayaDir = new FileSystemWatcher(@"C:\Users\mason\OneDrive\Documents\test\");
+            FileSystemWatcher avayaDir = new FileSystemWatcher(@"C:\Users\" + Environment.UserName + @"\AppData\Roaming\Avaya\Avaya one-X Communicator\Log Files\");
             //avayaDir.Changed += new FileSystemEventHandler(FswEvent);
             //avayaDir.Deleted += new FileSystemEventHandler(FswEvent);
             //avayaDir.Renamed += new RenamedEventHandler(FswEvent);
